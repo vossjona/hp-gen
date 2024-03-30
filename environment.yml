@@ -1,0 +1,9 @@
+name: gen_stuff
+dependencies:
+  - python=3.11
+  - pip
+  - numpy
+  - pandas
+  - conda-forge::pydantic
+  - conda-forge::spacy
+  - pytest
