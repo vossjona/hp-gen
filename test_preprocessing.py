@@ -1,5 +1,5 @@
 import pytest
-from preprocessing import normalize_and_split_text
+from preprocessing import _normalize_and_split_text
 
 
 @pytest.mark.parametrize("input_text, expected_output", [
@@ -9,6 +9,6 @@ from preprocessing import normalize_and_split_text
     # Add more test cases here
 ])
 def test_normalize_and_split_text(input_text, expected_output):
-    assert normalize_and_split_text(input_text) == expected_output
+    assert _normalize_and_split_text(input_text) == expected_output
 
 

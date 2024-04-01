@@ -7,3 +7,7 @@ dependencies:
   - conda-forge::pydantic
   - conda-forge::spacy
   - pytest
+  - scikit-learn
+  - conda-forge::sentence-transformers
+  - conda-forge::python-levenshtein
+  - conda-forge::ebooklib
